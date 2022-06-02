@@ -2,6 +2,9 @@ print("hello world")
 
 print("testing 1")
 
+arr = []
 i = 0
 while (i<10):
-	print(i)
+	arr.append(i)
+	i+=1
+print(arr)
